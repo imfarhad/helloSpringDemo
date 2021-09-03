@@ -10,4 +10,9 @@ public class HelloController {
     public String sayHello(){
         return "Hello From Controller";
     }
+
+    @GetMapping("/welcome")
+    public String welcome(){
+        return "Welcome to GitHub Actions";
+    }
 }
