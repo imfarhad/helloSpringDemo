@@ -15,4 +15,9 @@ public class HelloController {
     public String welcome(){
         return "Welcome to GitHub Actions";
     }
+    
+    @GetMapping("/test")
+    public String test(){
+        return "test-added";
+    }
 }
